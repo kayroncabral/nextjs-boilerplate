@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Head from 'next/head'
+
 import CssBaseline from '@material-ui/core/CssBaseline'
 import { ThemeProvider } from '@material-ui/core/styles'
 
@@ -16,9 +18,12 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width' />
+      </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-          <Component {...pageProps} />
+        <Component {...pageProps} />
       </ThemeProvider>
     </>
   )
