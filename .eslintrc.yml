@@ -38,6 +38,7 @@ rules:
             '/^@material-ui/core/',
             '/^@material-ui/lab/',
             '/^@material-ui/icons/',
+            '/^lib/',
             '/^icons/',
             '/^components/',
             '/^dialogs/',
