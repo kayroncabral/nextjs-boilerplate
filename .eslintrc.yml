@@ -26,6 +26,7 @@ rules:
   react/jsx-filename-extension: ['error', { 'extensions': ['.js', '.jsx'] }]
   react/prop-types: ['off']
   space-before-function-paren: ['off']
+  multiline-ternary: ['off']
   import-helpers/order-imports:
     [
       'warn',
@@ -35,10 +36,10 @@ rules:
           [
             '/^react/',
             'module',
-            '/^@material-ui/core/',
-            '/^@material-ui/lab/',
-            '/^@material-ui/icons/',
-            '/^lib/',
+            '/^@mui/material/',
+            '/^@mui/lab/',
+            '/^@mui/icons-material/',
+            '/^@mui/styles/',
             '/^icons/',
             '/^components/',
             '/^dialogs/',
@@ -48,6 +49,7 @@ rules:
             '/^contexts/',
             '/^forms/',
             '/^hooks/',
+            '/^services/',
             '/^utils/',
             '/^theme/',
             '/^styles/',

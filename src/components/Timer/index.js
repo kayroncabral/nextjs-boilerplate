@@ -1,10 +1,10 @@
 import React from 'react'
 
-import IconButton from '@material-ui/core/IconButton'
-import Typography from '@material-ui/core/Typography'
+import IconButton from '@mui/material/IconButton'
+import Typography from '@mui/material/Typography'
 
-import Play from '@material-ui/icons/PlayArrow'
-import Replay from '@material-ui/icons/Replay'
+import Play from '@mui/icons-material/PlayArrow'
+import Replay from '@mui/icons-material/Replay'
 
 import useStyles from './styles'
 

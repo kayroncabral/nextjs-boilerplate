@@ -2,8 +2,8 @@ import React from 'react'
 
 import Head from 'next/head'
 
-import Container from '@material-ui/core/Container'
-import Typography from '@material-ui/core/Typography'
+import Container from '@mui/material/Container'
+import Typography from '@mui/material/Typography'
 
 import Timer from 'components/Timer'
 
